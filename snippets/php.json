@@ -17,56 +17,56 @@
     "PHP: COOKIE['...']": {
         "prefix": "$_",
         "body": [
-            "$_COOKIE['$1']"
+            "$$_COOKIE['$1']"
         ],
         "description": "PHP Cookie"
     },
     "PHP: ENV['...']": {
         "prefix": "$_",
         "body": [
-            "$_ENV['$1']"
+            "$$_ENV['$1']"
         ],
         "description": "PHP env"
     },
     "PHP: FILES['...']": {
         "prefix": "$_",
         "body": [
-            "$_FILES['$1']"
+            "$$_FILES['$1']"
         ],
         "description": "PHP Files"
     },
     "PHP: GET['...']": {
         "prefix": "$_",
         "body": [
-            "$_GET['$1']"
+            "$$_GET['$1']"
         ],
         "description": "PHP Get"
     },
     "PHP: POST['...']": {
         "prefix": "$_",
         "body": [
-            "$_POST['$1']"
+            "$$_POST['$1']"
         ],
         "description": "PHP Post"
     },
     "PHP: REQUEST['...']": {
         "prefix": "$_",
         "body": [
-            "$_REQUEST['$1']"
+            "$$_REQUEST['$1']"
         ],
         "description": "PHP Request"
     },
     "PHP: SERVER['...']": {
         "prefix": "$_",
         "body": [
-            "$_SERVER['$1']"
+            "$$_SERVER['$1']"
         ],
         "description": "PHP Server"
     },
     "PHP: SESSION['...']": {
         "prefix": "$_",
         "body": [
-            "$_SESSION['$1']"
+            "$$_SESSION['$1']"
         ],
         "description": "PHP Session"
     },

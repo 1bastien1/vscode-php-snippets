@@ -1,11 +1,11 @@
 {
     "name": "vscode-php-snippets",
-    "publisher": "jm-mwi",
+    "publisher": "jaredm",
     "displayName": "PHP Snippet Pack ",
     "description": "A snippet pack to make you more productive working with PHP",
-    "icon": "art/js-icon.png",
+    "icon": "art/php.png",
     "galleryBanner": {
-        "color": "#F0DB4F",
+        "color": "#232323",
         "theme": "dark"
     },
     "license": "MIT",
@@ -17,7 +17,7 @@
         "type": "git",
         "url": "https://github.com/jm-mwi/vscode-php-snippets/blob/master/README.md"
     },
-    "version": "0.0.1",
+    "version": "0.0.3",
     "engines": { "vscode": "^0.11.x" },
     "categories": ["Snippets"],
     "keywords": [
