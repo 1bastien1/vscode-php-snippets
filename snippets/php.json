@@ -77,11 +77,60 @@
         ],
         "desription": "PHP blank return statement"
     },
+    "PHP: Short echo tag ": {
+        "prefix": "?=",
+        "body": [
+            "<?= $1 ?>"
+        ],
+        "description": "PHP short echo tag"
+    },
+    "PHP: Class declaration": {
+        "prefix": "c",
+        "body": [
+            "class $1 {",
+            "     $2",
+            "}"
+        ],
+        "description": "PHP class declaration"
+    },
+    "PHP: Class w/ constructor": {
+        "prefix": "cc",
+        "body": [
+            "class $1 {",
+            "     public function __construct()",
+            "     {",
+            "         $2",
+            "     }",
+            "}"
+        ],
+        "description": "PHP class w/ constructor"
+    },
+    "PHP: trait ... {": {
+        "prefix": "trt",
+        "body": [
+            "namespace $1;",
+            "",
+            "use $2;",
+            "",
+            "trait $3Trait {",
+            "    $4",
+            "}"
+        ]
+    },
     "Laravel: dd(...)": {
         "prefix": "dd",
         "body": [
             "dd($1);"
         ],
         "description": "Laravel die & dump"
+    },
+    "PHP Public Function: public function ...(...)": {
+        "prefix": "pfunc",
+        "body": [
+            "public function $1($2)",
+            "{",
+            "\t$3",
+            "}"
+        ]
     }
 }
